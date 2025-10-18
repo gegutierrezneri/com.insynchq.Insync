@@ -1,5 +1,17 @@
 # Insync Flatpak
 
+This is an experimental community flatpak recipe.
+This is working as of October 2025 with Insync v3.9.6.60027
+
+## Pre-requisites for Steamdeck
+
+If you do not want to disable  read-only mode, you also need to install 2 additional flatpaks from flathub before building this local flatpak.
+
+```
+flatpak install flathub org.flatpak.Builder
+flatpak install flathub org.freedesktop.Sdk/x86_64/24.08
+```
+
 ## Building
 
 ```
